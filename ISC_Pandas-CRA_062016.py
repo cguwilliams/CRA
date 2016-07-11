@@ -1,9 +1,5 @@
 # coding: utf-8
 
-## To clear memory
-# import sys
-# sys.modules[__name__].__dict__.clear()
-
 ##Import Library
 import pandas as pd
 import numpy as np
@@ -136,7 +132,7 @@ for i in range(1,len(excel_files)):
     to_append = [avo_nirs, avo_resp, avo_card, dempc_nirs, dempc_resp, dempc_card, plo_nirs, plo_resp, plo_card]   
     df[this_index] = to_append
     
-    print(df)0.00....0.......
+    print(df)
     
 df.to_csv(filename)
 
